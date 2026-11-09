@@ -1,0 +1,31 @@
+﻿start dir=D:\VTVLive\thiepcuoi\chi tiêt
+copied Thiệp cưới online sang trọng (2).png -> flowers.png
+copied Thiệp cưới online sang trọng (1).png -> hands-envelope.png
+copied Thiệp cưới online sang trọng (3).png -> bg-wine.png
+Thiệp cưới online sang trọng (1).png: 176x141 fmt=Format24bppRgb transparent=0%
+Thiệp cưới online sang trọng (2).png: 131x127 fmt=Format24bppRgb transparent=0%
+Thiệp cưới online sang trọng (3).png: 397x112 fmt=Format24bppRgb transparent=0%
+SEAL gold px=290 bbox=(74,59)-(99,87) of 176x141
+ENVELOPE bbox=(12,24)-(170,132)
+BG band  0 y0: avg=102.9 max=255
+BG band  1 y6: avg=16.2 max=33
+BG band  2 y12: avg=17.3 max=29
+BG band  3 y18: avg=18.0 max=30
+BG band  4 y24: avg=18.3 max=29
+BG band  5 y30: avg=18.7 max=29
+BG band  6 y36: avg=19.1 max=32
+BG band  7 y42: avg=21.0 max=63
+BG band  8 y48: avg=19.2 max=32
+BG band  9 y54: avg=19.1 max=30
+BG band 10 y60: avg=18.7 max=31
+BG band 11 y66: avg=18.5 max=28
+BG band 12 y72: avg=18.8 max=28
+BG band 13 y78: avg=18.6 max=33
+BG band 14 y84: avg=18.3 max=30
+BG band 15 y90: avg=18.6 max=28
+BG band 16 y96: avg=18.3 max=29
+BG band 17 y102: avg=17.6 max=27
+BG band 18 y108: avg=25.1 max=64
+BG band 19 y114: avg=0.0 max=0
+BG avg #390A0A
+done

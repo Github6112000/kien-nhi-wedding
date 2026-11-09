@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 224" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="back" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#26030a"/>
+      <stop offset=".45" stop-color="#5e0d1e"/>
+      <stop offset=".7" stop-color="#3c0712"/>
+      <stop offset="1" stop-color="#22030a"/>
+    </linearGradient>
+    <linearGradient id="main" x1="0" y1="0" x2="1" y2=".55">
+      <stop offset="0" stop-color="#3a0610"/>
+      <stop offset=".22" stop-color="#701227"/>
+      <stop offset=".42" stop-color="#b13850"/>
+      <stop offset=".5" stop-color="#d36277"/>
+      <stop offset=".6" stop-color="#8f1d35"/>
+      <stop offset=".82" stop-color="#5a0c1b"/>
+      <stop offset="1" stop-color="#2e050c"/>
+    </linearGradient>
+    <linearGradient id="front" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#43080f"/>
+      <stop offset=".3" stop-color="#7c162b"/>
+      <stop offset=".5" stop-color="#c24b62"/>
+      <stop offset=".58" stop-color="#e07a8c"/>
+      <stop offset=".68" stop-color="#93203a"/>
+      <stop offset="1" stop-color="#36060e"/>
+    </linearGradient>
+    <filter id="blur" x="-10%" y="-60%" width="120%" height="220%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="shadow" x="-10%" y="-40%" width="120%" height="180%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <!-- soft cast shadow on whatever sits behind the fabric -->
+  <path d="M0 52 C 70 30 140 70 190 100 C 250 134 320 130 380 96 C 420 74 455 62 480 62 L480 150 C 400 150 330 180 250 182 C 160 184 80 150 0 146 Z"
+        fill="#120104" opacity=".55" filter="url(#shadow)"/>
+
+  <!-- back fold -->
+  <path d="M0 98 C 80 66 150 136 250 114 S 400 60 480 90 L480 156 C 400 132 330 180 240 176 S 70 136 0 164 Z" fill="url(#back)"/>
+
+  <!-- main sweep -->
+  <path d="M0 60 C 60 40 120 68 172 100 C 232 136 300 132 362 98 C 410 72 452 62 480 66 L480 152 C 432 148 382 162 322 180 C 252 200 172 196 110 170 C 68 152 30 140 0 142 Z" fill="url(#main)"/>
+
+  <!-- front fold -->
+  <path d="M0 122 C 52 108 110 122 162 144 C 222 170 302 172 372 150 C 422 134 456 130 480 132 L480 178 C 440 180 400 198 330 210 C 250 222 150 216 90 198 C 50 186 20 180 0 182 Z" fill="url(#front)"/>
+
+  <!-- satin sheen -->
+  <path d="M8 70 C 70 54 132 84 182 112 C 242 144 302 142 354 110" fill="none" stroke="#ffb3c0" stroke-opacity=".35" stroke-width="5" stroke-linecap="round" filter="url(#blur)"/>
+  <path d="M40 136 C 100 128 150 146 202 162 C 262 180 330 176 392 154" fill="none" stroke="#ffd0d8" stroke-opacity=".32" stroke-width="4" stroke-linecap="round" filter="url(#blur)"/>
+  <path d="M252 116 C 302 118 340 104 380 88 C 420 74 455 70 480 72" fill="none" stroke="#f095a5" stroke-opacity=".3" stroke-width="3" stroke-linecap="round" filter="url(#blur)"/>
+  <path d="M120 190 C 180 206 250 208 320 194" fill="none" stroke="#e06f84" stroke-opacity=".25" stroke-width="3" stroke-linecap="round" filter="url(#blur)"/>
+</svg>

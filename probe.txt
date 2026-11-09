@@ -1,0 +1,5 @@
+﻿C:\Users\LENOVO\AppData\Local\Programs\DockerDesktop\Docker Desktop.exe => True
+C:\Program Files\Docker\Docker\Docker Desktop.exe => False
+C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe => True
+C:\Program Files\Google\Chrome\Application\chrome.exe => True
+C:\Users\LENOVO\AppData\Local\Google\Chrome\Application\chrome.exe => False

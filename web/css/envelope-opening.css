@@ -1,0 +1,233 @@
+/* Physical red-wine envelope opening, adapted from the supplied prototype. */
+.env-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  overflow: hidden;
+  background: var(--bg-image) center / cover no-repeat, #2a0a12;
+  transition: opacity 920ms var(--ease), visibility 0s linear 920ms;
+}
+.env-screen.is-revealing {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.env-open {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: block;
+  inline-size: 100%;
+  block-size: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+.env-open:disabled { cursor: default; }
+.env-open:focus-visible { outline: 2px solid var(--gold); outline-offset: -12px; }
+.env-stage {
+  --env-ratio: .46127;
+  /* Overscan: the envelope art has soft/transparent edges, so draw it slightly larger than
+     the viewport to keep the card behind it from peeking out on any phone ratio. */
+  --env-overscan: 1.05;
+  position: absolute;
+  inset-inline-start: 50%;
+  inset-block-start: 50%;
+  inline-size: calc(var(--env-overscan) * max(100vw, calc(100vh * var(--env-ratio))));
+  block-size: calc(var(--env-overscan) * max(100vh, calc(100vw / var(--env-ratio))));
+  inline-size: calc(var(--env-overscan) * max(100vw, calc(100dvh * var(--env-ratio))));
+  block-size: calc(var(--env-overscan) * max(100dvh, calc(100vw / var(--env-ratio))));
+  perspective: 1800px;
+  perspective-origin: 50% 45%;
+  transform: translate(-50%, -50%);
+}
+.env-envelope {
+  position: absolute;
+  inset: 0;
+  display: block;
+  overflow: visible;
+  isolation: isolate;
+  transform-style: preserve-3d;
+  animation: none;
+  will-change: transform;
+}
+.env-layer {
+  position: absolute;
+  inset: 0;
+  display: block;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+.env-face {
+  position: absolute;
+  inset: 0;
+  display: block;
+  overflow: hidden;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.env-face--back { transform: rotateX(180deg); }
+.env-face img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  inline-size: 100%;
+  block-size: 100%;
+  max-inline-size: none;
+  object-fit: contain;
+  user-select: none;
+  -webkit-user-drag: none;
+  pointer-events: none;
+}
+.env-card { transform-origin: 50% 45%; }
+.env-card-surface {
+  position: absolute;
+  inset: 0;
+  display: block;
+  background:
+    url("../assets/images/thiep-the-wedding-of.png") center / contain no-repeat,
+    var(--bg-image) center / cover no-repeat,
+    #4a0811;
+  box-shadow: inset 0 0 0 1px rgba(240, 210, 164, .16);
+}
+.env-card-shadow,
+.env-shade,
+.env-seal-shadow {
+  position: absolute;
+  inset: 0;
+  display: block;
+  opacity: 0;
+  pointer-events: none;
+}
+.env-inside {
+  position: absolute;
+  inset: 0;
+  display: block;
+  background: linear-gradient(#4a0811, #62101c 60%, #520b15);
+}
+.env-body { transform-origin: 50% 100%; }
+.env-flap { transform-origin: 50% 0%; }
+.env-seal-shadow {
+  background: radial-gradient(ellipse 30% 10% at 50% var(--seal-shadow-y, 52%), rgba(20, 0, 4, .6), rgba(20, 0, 4, 0) 70%);
+}
+.env-reveal-light {
+  position: absolute;
+  inset: -22%;
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0;
+  background:
+    radial-gradient(ellipse at 50% 55%, rgba(255, 250, 224, .96) 0 3%, rgba(255, 221, 157, .64) 16%, rgba(238, 174, 91, .2) 35%, transparent 61%),
+    linear-gradient(115deg, transparent 35%, rgba(255, 239, 203, .28) 50%, transparent 65%);
+  filter: blur(8px);
+  mix-blend-mode: screen;
+  transform: scale(.78);
+}
+@keyframes envelope-reveal-light {
+  0% { opacity: 0; transform: scale(.78); }
+  22% { opacity: .92; transform: scale(.94); }
+  58% { opacity: .5; transform: scale(1.06); }
+  100% { opacity: 0; transform: scale(1.16); }
+}
+.env-screen.is-revealing .env-reveal-light { animation: envelope-reveal-light 920ms var(--ease) both; }
+@media (prefers-reduced-motion: reduce) {
+  .env-screen, .env-envelope, .env-layer, .env-reveal-light { transition: none !important; animation: none !important; }
+}
+
+/* Opening copy returns above the sealed envelope and clears before the physical pull begins. */
+.env-opening-copy {
+  position: absolute;
+  z-index: 10;
+  inset-inline-start: 50%;
+  inline-size: max-content;
+  max-inline-size: calc(100% - 32px);
+  margin: 0;
+  color: #f8ead8;
+  text-align: center;
+  white-space: nowrap;
+  pointer-events: none;
+  text-shadow: 0 2px 12px rgba(35, 0, 6, .55);
+  transform: translate(-50%, 14px);
+  animation: envelope-copy-enter 1s var(--ease) both;
+  transition: opacity 320ms ease, transform 420ms var(--ease);
+}
+.env-opening-copy--kicker {
+  /* positioned from the screen centre (stage centre = viewport centre), so it sits
+     at the same height on every phone ratio regardless of how much the art is cropped */
+  inset-block-start: calc(50% - 29vh);
+  inset-block-start: calc(50% - 29dvh);
+  font-family: var(--serif);
+  font-size: clamp(15px, 4.2vw, 21px);
+  font-weight: 500;
+  letter-spacing: .075em;
+  line-height: 1.15;
+  animation-delay: .2s;
+}
+.env-opening-copy--names {
+  inset-block-start: calc(50% - 23vh);
+  inset-block-start: calc(50% - 23dvh);
+  font-family: var(--script);
+  font-size: clamp(42px, 12vw, 58px);
+  font-weight: 400;
+  letter-spacing: .015em;
+  line-height: .95;
+  animation-delay: .52s;
+}
+.env-opening-copy--prompt {
+  inset-block-start: 68%;
+  font-family: var(--serif);
+  font-size: clamp(15px, 4.1vw, 21px);
+  font-weight: 500;
+  letter-spacing: .1em;
+  line-height: 1.2;
+  text-transform: uppercase;
+  animation: envelope-copy-enter 1s var(--ease) 1.1s both, envelope-copy-pulse 3.3s ease-in-out 2.3s infinite;
+}
+@keyframes envelope-copy-enter {
+  from { opacity: 0; filter: blur(5px); transform: translate(-50%, 14px); }
+  to { opacity: 1; filter: blur(0); transform: translate(-50%, 0); }
+}
+@keyframes envelope-copy-pulse {
+  0%, 100% { opacity: .72; }
+  50% { opacity: 1; }
+}
+.env-open:disabled .env-opening-copy {
+  opacity: 0;
+  animation: none;
+  transform: translate(-50%, -10px);
+}
+@media (prefers-reduced-motion: reduce) {
+  .env-opening-copy { animation: none; transform: translate(-50%, 0); }
+}
+
+/* Persistent, compact sound control for the whole invitation. */
+.music-toggle {
+  position: fixed;
+  z-index: 120;
+  inset-inline-end: max(14px, calc(env(safe-area-inset-right) + 10px));
+  inset-block-end: max(14px, calc(env(safe-area-inset-bottom) + 10px));
+  display: grid;
+  place-items: center;
+  inline-size: 36px;
+  block-size: 36px;
+  padding: 0;
+  border: 1px solid rgba(248, 234, 216, .46);
+  border-radius: 50%;
+  background: rgba(54, 7, 14, .74);
+  color: #f8ead8;
+  box-shadow: 0 5px 18px rgba(20, 0, 4, .34);
+  cursor: pointer;
+  font-family: var(--serif);
+  font-size: 19px;
+  line-height: 1;
+  backdrop-filter: blur(8px);
+  -webkit-tap-highlight-color: transparent;
+  transition: background .2s ease, color .2s ease, transform .2s var(--ease);
+}
+.music-toggle:hover { background: rgba(91, 17, 30, .88); }
+.music-toggle:active { transform: scale(.94); }
+.music-toggle:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+.music-toggle.is-muted { color: rgba(248, 234, 216, .72); }

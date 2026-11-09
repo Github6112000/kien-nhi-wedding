@@ -1,0 +1,237 @@
+{
+   "checksum": "066ed4a51c33ca6e6adcf4f1ab885f31",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13244794263485629",
+            "date_last_used": "0",
+            "guid": "b8e5e290-67fe-4cdf-803f-e65ce41e7309",
+            "id": "12",
+            "name": "Cài đặt",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "chrome://settings/",
+            "visit_count": 0
+         }, {
+            "date_added": "13248373822099052",
+            "date_last_used": "0",
+            "guid": "a9c2d77a-a523-4977-b8ec-11d19745619a",
+            "id": "13",
+            "name": "Series tự học Javascript từ cơ bản tới nâng cao » Cafedev.vn",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://cafedev.vn/series-tu-hoc-javascript-tu-co-ban-toi-nang-cao/?fbclid=IwAR3TMSzO77PJHFC3_uEjUfgbtd2fXS2AEzORGFmjweuAq6cmfgKolpKUCvQ",
+            "visit_count": 0
+         }, {
+            "date_added": "13248496891786648",
+            "date_last_used": "0",
+            "guid": "d324b39a-d0f6-4720-b49b-c0d8e07e6642",
+            "id": "14",
+            "name": "https://login.taobao.com/member/login.jhtml?redirectURL=http%3A%2F%2Fs.taobao.com%2Fsearch%3Fq%3DMLBNY%25B0%25F4%25C7%25F2%25B7%25FE%25BA%25AB%25B0%25E6%25C4%25D0%25C5%25AE%25C7%25E9%25C2%25C2%25C3%25F7%25D0%25C7%25CD%25AC%25BF%25EE%25B4%25CC%25D0%25E5%25BC%25D0%25BF%25CB%25D1%25A7%25C9%25FAPU%25C6%25A4%25C3%25AB%25C4%25D8%25BF%25ED%25CB%25C9%25CD%25E2%25CC%25D7%26s_from%3DnewHeader%26ssid%3Ds5-e%26search_type%3Ditem%26sourceId%3Dtb.item&uuid=9e174ce249285545cecff44f64c29e64",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://login.taobao.com/member/login.jhtml?redirectURL=http%3A%2F%2Fs.taobao.com%2Fsearch%3Fq%3DMLBNY%25B0%25F4%25C7%25F2%25B7%25FE%25BA%25AB%25B0%25E6%25C4%25D0%25C5%25AE%25C7%25E9%25C2%25C2%25C3%25F7%25D0%25C7%25CD%25AC%25BF%25EE%25B4%25CC%25D0%25E5%25BC%25D0%25BF%25CB%25D1%25A7%25C9%25FAPU%25C6%25A4%25C3%25AB%25C4%25D8%25BF%25ED%25CB%25C9%25CD%25E2%25CC%25D7%26s_from%3DnewHeader%26ssid%3Ds5-e%26search_type%3Ditem%26sourceId%3Dtb.item&uuid=9e174ce249285545cecff44f64c29e64",
+            "visit_count": 0
+         }, {
+            "date_added": "13260289722122118",
+            "date_last_used": "0",
+            "guid": "c9779fac-f9c1-4a0a-be10-ae21d368c93b",
+            "id": "15",
+            "name": "Dropbox - slides - Simplify your life",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.dropbox.com/sh/4oz8tj5afi7pbtm/AABu1ct-fNqWLhIfJIrkCT4Ma/slides?dl=0&preview=lec4-graph1-new.pdf&subfolder_nav_tracking=1",
+            "visit_count": 0
+         }, {
+            "date_added": "13264359604657733",
+            "date_last_used": "0",
+            "guid": "a1cba8a8-fc17-4591-8bb2-258b98438426",
+            "id": "16",
+            "name": "(379) TOP 10 ĐỘI HÌNH MẠNH NHẤT KHỞI ĐỘNG MÙA 5 ĐẤU TRƯỜNG CHÂN LÝ | NGÀY PHÁN QUYẾT! - YouTube",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=q1UpjQQMgbE&t=498s",
+            "visit_count": 0
+         }, {
+            "date_added": "13275384636597779",
+            "date_last_used": "0",
+            "guid": "7e973854-2479-4c19-a82e-b81d98a10878",
+            "id": "17",
+            "name": "Câu hỏi gợi nhớ",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "http://chungkhoan.thanglong.edu.vn/resetpass.action",
+            "visit_count": 0
+         }, {
+            "date_added": "13275386902425062",
+            "date_last_used": "0",
+            "guid": "f12baf1d-7268-41e5-aec3-4d1bd7cdd7e2",
+            "id": "18",
+            "name": "VietstockFinance – Dữ liệu tài chính và công cụ đầu tư chứng khoán",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://finance.vietstock.vn/",
+            "visit_count": 0
+         }, {
+            "date_added": "13275388271300304",
+            "date_last_used": "0",
+            "guid": "d136e4a9-c4c7-4351-a8c7-f56f4fb06110",
+            "id": "19",
+            "name": "Kênh thông tin kinh tế - tài chính Việt Nam",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://cafef.vn/",
+            "visit_count": 0
+         }, {
+            "date_added": "13283829217543645",
+            "date_last_used": "0",
+            "guid": "6a66c01a-86d4-426d-9f9e-d2d74be9de38",
+            "id": "20",
+            "name": "ETS 2016 Toeic LISTENING (1).pdf - Google Drive",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://drive.google.com/file/d/1BWw1EPDudkP2LuPq0OvjxxQRLsp44VBu/view",
+            "visit_count": 0
+         }, {
+            "date_added": "13277467150468636",
+            "date_last_used": "0",
+            "guid": "f053af81-080a-4c4b-b1be-dcb2650ee5d2",
+            "id": "21",
+            "name": "Maps",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://maps.google.com/",
+            "visit_count": 0
+         }, {
+            "children": [ {
+               "date_added": "13240546826958490",
+               "date_last_used": "0",
+               "guid": "36f4a7e9-91e3-4fc7-b207-f1fc67ca54db",
+               "id": "23",
+               "name": "ASUS Homepage",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "http://www.asus.com/",
+               "visit_count": 0
+            }, {
+               "date_added": "13240546826974112",
+               "date_last_used": "0",
+               "guid": "4bebfd88-dd2b-46c5-82fb-803512646b83",
+               "id": "24",
+               "name": "ASUS Member",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://account.asus.com/",
+               "visit_count": 0
+            } ],
+            "date_added": "13289139109839834",
+            "date_last_used": "0",
+            "date_modified": "13289139109839834",
+            "guid": "180bdab2-ecdc-49e8-8581-42052d78f023",
+            "id": "22",
+            "name": "ASUS E-Service",
+            "source": "unknown",
+            "type": "folder"
+         }, {
+            "date_added": "13436068891833584",
+            "date_last_used": "0",
+            "guid": "066de079-84e9-465b-9e98-8d85167abcad",
+            "id": "9",
+            "name": "Lenovo Support",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://support.lenovo.com/",
+            "visit_count": 0
+         }, {
+            "date_added": "13436068891833505",
+            "date_last_used": "0",
+            "guid": "2b7c6b5a-69b4-4aa5-a10a-370a078573c0",
+            "id": "8",
+            "name": "Lenovo",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.lenovo.com/",
+            "visit_count": 0
+         }, {
+            "date_added": "13436068891833227",
+            "date_last_used": "0",
+            "guid": "84204ab3-aa4a-4ccd-937c-208f1a4fdeac",
+            "id": "7",
+            "name": "McAfee",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.mcafee.com/consumer/v/browserfav/lenovo.html",
+            "visit_count": 0
+         } ],
+         "date_added": "13436068891701284",
+         "date_last_used": "0",
+         "date_modified": "13436068891833584",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13436068891701284",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13244778943373257",
+            "date_last_used": "0",
+            "guid": "ee789e4b-18a1-4915-b10a-9f067b101b07",
+            "id": "25",
+            "name": "Facebook",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.facebook.com/",
+            "visit_count": 0
+         } ],
+         "date_added": "13436068891701284",
+         "date_last_used": "0",
+         "date_modified": "13244778943373257",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "workspaces_v2": {
+         "children": [  ],
+         "date_added": "13436068891701284",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "75aa6670-344f-549d-b742-660f029506ab",
+         "id": "5",
+         "name": "Workspaces",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CjEKDgiIgQISCMrBMf2eAQAAEgAqGFM4amVHUEdwV2dSSHpSTDd3ZDVxVEE9PUgDoAYHEowBCAMShwEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SJDRkNzMyY2ZhLWViM2QtNTY2Yi05YTcwLTI5YzZmODNlNDhlZhgAIAAoADDTh6zH0C446MjPrPMvQOjIz6zzL0oceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPWUAAAAAwj4CYAASrAEIGRKnAQocaFNUWGxiTHgxUWJTL2FPRHMvZC9QZU1xYklnPRIkOGRiMmJmZGEtMDdjMS00YmFkLThmMDUtNGMxYjI1YmUyYjEzGAAgACgAMIzkv7O4Lzjr0c+s8y9A69HPrPMvShxKMDl6RVdhYjYxTUR1ZjBsR05aK3BHWTVGbWM9Wh4iHFBYdW45THFrelhobkVPWThER3A2QTE4NjVkST1lxJF2xcI+AmAFEq0BCBgSqAEKHG9qVjA5d0NmQmw3NWxqRHBQcG9lSWM0cFJVST0SJDRiZWJmZDg4LWRkMmItNDZjNS04MmZiLTgwMzUxMjY0NmI4MxgAIAAoADDm1KLu7i84o7LQrPMvQKOy0KzzL0ocZ0Z2OWsvc1QwRUpDN3FaVFBXSDBKc1lZWGhZPVofIh28ZFJzWFpKS0FCdFhRdnY2ZUk2MmFKT0RxWCtvPWUAAAAAwj4CYAUSrAEIFxKnAQocUjBWMDF0OEtEdkhtVHVxeDdOanNaMnQ3c05jPRIkMzZmNGE3ZTktOTFlMy00ZmM3LWIyMDctZjFmYzY3Y2E1NGRiGAAgACgAMObUou7uLziTstCs8y9Ak7LQrPMvShxRR01SUDhlS2EwMFV0NnoxVXZqTnAxcytROTA9Wh4iHHhLTUJEQWxCMHdXUEtxd1FGbHVNRzRRK0hTUT1lAAAAAMI+AmAFEq0BCBUSqAEKHGRwaTJkWkNSczA5Y1o0K285NkFWdlJBZXVMOD0SJGYwNTNhZjgxLTA4MGEtNGM0Yi1iMWJlLWRjYjI2NTBlZTVkMhgAIAAoADCsscbW4zE42qXQrPMvQNql0KzzL0ocb3Y2a1pKUml4MzdKQXRRcVBoRHRMNWpSUE5NPVofIh3/YmdFTDNXbTM0cnZpR3FGNGFrbDMvUmpZUUFzPWU9bIURwj4CYAUSrQEIFBKoAQocZmRNSllqMkVEV2xnVFZYb0dNcnA3VlRMSGRrPRIkNmE2NmMwMWEtODZkNC00MjZkLTlmOWUtZDJkNzRiZTlkZTM4GAAgACgAMKqxxtbjMTjsmtCs8y9A7JrQrPMvShx5RHkydDZSMTJkMzlUSEJhaHloa2lZWnZUWGc9Wh8iHf45T25MY0xiUVdnMXZpQ0JRNTBGZjAzRGhSQ2M9ZboKLFHCPgJgBRKtAQgSEqgBChxQYkYwYTJsYi9JOSt1N2hDZFdBL3JiYlpZdzQ9EiRmMTJiYWYxZC03MjY4LTQxZTUtYWVjMy00ZDFiZDdjZGQ3ZTIYACAAKAAwq7HG1uMxOJrSz6zzL0Ca0s+s8y9KHGx0V3pDYlEySnkzN2VTZnhTN09RZ05WM0wzRT1aHyId+3E1WHBPUlRnbml6dkw3WjJLUStPQVM3dEZxTT1lZg3Hf8I+AmAFEq0BCBASqAEKHHgzYXpkOHlyQ1RNQkVLMCtVMWlLdUZ6MWVXND0SJGExY2JhOGE4LWZjMTctNDU5MS04YmIyLTI1OGI5ODQzODQyNhgAIAAoADCnscbW4zE4udLPrPMvQLnSz6zzL0ocbGdZajBweUhUMEFaNDY0Vjlndlpxam8weGVBPVofIh3tb3lRbnpMOGZid1F1WDZXMEtLcE9PTGtJWStzPWU4+Tkzwj4CYAUSrAEIDBKnAQocczhUM3RyQUhQcHUzTlhuL1lJR3cwak9neW5nPRIkN2EzYjk1ZjgtODMwNC00YTNlLWEwNTAtNjdlYWExYTAzNTJjGAAgACgAMNSPrMfQLjj4yM+s8y9A+MjPrPMvShxvZHEvZDk0WjUydk5OemhZU2hZNWtSZGtVV0E9Wh4iHGdMVE9ZWXBtcEd4cDVwc3FhblVwSzlUZWZ4MD1lAAAAAMI+AmAFEqwBCA0SpwEKHE95V29TSk5tajlYbURhVnpWT3VaeCsyQXlGUT0SJGNmNzc3NzRhLTJjODQtNDY2Ni1hNGQ0LTIwZDAwMDZmOTFmNRgAIAAoADClscbW4zE4i83PrPMvQIvNz6zzL0ocdHVzeUlGeHk0T0czSWJ6bm1xWTB0S3dBdXpFPVoeIhxtamFOUVRKemQ5eGgxenhoOVM3bHdibjNleDQ9Ze3kDs7CPgJgBRKtAQgREqgBChwyQm11UlZCc3dTeWJ0RVdJN2RHSSt6Q3hzU2s9EiQ3ZTk3Mzg1NC0yNDc5LTRjMTktYTgyZS1iODFkOThhMTA4NzgYACAAKAAwprHG1uMxOIrSz6zzL0CK0s+s8y9KHDRwMEpnc1V0YmJLaWRTaHlTVVJqcDlxaGhHTT1aHyId9mlPQUsvc1Z0UnRYSE9vYjQwQnlSdlZUN2NBWT1la9mXycI+AmAFEq0BCA8SqAEKHHVlZnZkenYxVzdjNHV4alNyYkdmeXZIZzRhWT0SJGM5Nzc5ZmFjLWY5YzEtNGEwYS1iZTEwLWFlMjFkMzY4YzkzYhgAIAAoADCpscbW4zE4k8/PrPMvQJPPz6zzL0oceHZ6MkNvUzluZTduTjB1aTR2WUdPaXlGMmJNPVofIh3bM0x0YjVkQmhZa0JDcmlDQnNqRGpsejJHS2dnPWX6ftyowj4CYAUSjAEIBRKHAQocd1JCclpMKzZQQTlhdktnak5QN0pYRExjZnZzPRIkN2I3MDQ4Y2MtNTM5Mi01ODgwLWExNTUtMDNjMThmYmFhNTc1GAAgACgAMM7Wu6ikMziE2LuopDNAhNi7qKQzShxubXg2NXNRRHZ4SThUZ0VlditBK250dG9TbjQ9ZQAAAADCPgJgABKtAQgTEqgBChxvczdZSzMwNVZFcHhUeFovakQ3cDBQd21pbE09EiRkMTM2ZTRhOS1jNGM3LTQzNTEtYThjNy1mNTZmNGZiMDYxMTAYACAAKAAwqLHG1uMxOKnSz6zzL0Cp0s+s8y9KHEk2NkNWZ3h3Z204ZWh3S3dxQzRXdjAyMFNhWT1aHyId/ThQQVA0WmRId2pxZmFFMURRSGRiK085Y1NoTT1lnws1P8I+AmAFEq4BCBYSqQEKHFlZb0pJck5jTlpmNk5QaVVwQXVxWjZLVVNtND0SJDE4MGJkYWIyLWVjZGMtNDllOC04NTgxLTQyMDUyZDc4ZjAyMxgAIAAoADDm1KLu7i84hLLQrPMvQISy0KzzL0ocdzRtaUxDZG5iMm0xZFhJdlVOS2ZaQ0hFMjRFPVogIh7/sTAycko3VlVZU2NpRzVNL1psbHhxVGNYQ2VEaz1lAAAAAMI+AmAAEowBCAIShwEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SJDgwMTQ1MGQxLWIyOTktNTUxZC1iODI2LTA2MTc5YzIyYjJkYxgAIAAoADDPh6zH0C44qsjPrPMvQKrIz6zzL0ocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PWUAAAAAwj4CYAASrQEIDhKoAQocNUZqUy8vZFBMYitvL2hGRWhRNlZpdkxpa2xrPRIkZjExMDRjZGEtMmNiYi00NTljLWFmOTQtOTk4NTA3YWJmMzNmGAAgACgAMKSxxtbjMTibzc+s8y9Am83PrPMvShxPSUlCT3dWZy95N1daSXBvd2s5c1pMeDFkR2M9Wh8iHbZiMVp5ak5LbmdCcjFBMkJpdkZZcEM2Z3dPaUU9Zdp+u6TCPgJgBRKMAQgBEocBChx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9EiQ0MGY1ZGEyNS1jNzUyLTVkMzctYjY0My0zYzhhNWUyYjMwMjUYACAAKAAwzoesx9AuOIrIz6zzL0CKyM+s8y9KHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1lAAAAAMI+AmAAMAA4AA==",
+   "version": 1
+}

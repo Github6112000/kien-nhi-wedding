@@ -1,0 +1,197 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#3a0a12" />
+<title>Đình Kiên &amp; Phương Nhi | Thiệp Cưới 29.11.2026</title>
+<meta name="description" content="Thiệp cưới online của Nguyễn Đình Kiên &amp; Nguyễn Phương Nhi - Chủ Nhật, 29.11.2026 tại Trung Tâm Tiệc Cưới Mipec Tây Sơn" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/images/hands-envelope.png">
+<link rel="preload" as="image" href="assets/images/bg-wine.jpg">
+<link rel="stylesheet" href="css/style.css?v=3" />
+</head>
+<body class="is-locked">
+
+<!-- ================= ENVELOPE INTRO: tap the envelope -> invitation opens ================= -->
+<section id="env-screen" class="env-screen" aria-label="Thiệp cưới">
+  <img class="env-flower env-flower--tl" src="assets/images/flowers-cream-burgundy.png" alt="" aria-hidden="true" />
+  <img class="env-flower env-flower--br" src="assets/images/flowers-cream-burgundy.png" alt="" aria-hidden="true" />
+
+  <div class="env-content">
+    <p class="caps env-kicker">Trân trọng kính mời</p>
+    <p class="script env-guest" id="env-guest">Quý khách</p>
+
+    <button type="button" class="env-open" id="env-open" aria-label="Mở thiệp cưới">
+      <img class="env-hands" src="assets/images/hands-envelope.png" alt="Đôi tay đeo găng trao phong bì thiệp cưới màu đỏ rượu vang" />
+      <span class="env-seal" aria-hidden="true">
+        <img src="assets/svg/seal.svg" alt="" />
+        <span class="seal-mono mono-mask"></span>
+      </span>
+    </button>
+
+    <p class="caps env-sub">đến dự lễ thành hôn của</p>
+    <p class="script env-names" id="env-names">Đình Kiên &amp; Phương Nhi</p>
+    <p class="caps env-date" id="env-date">29.11.2026</p>
+    <p class="env-hint">Chạm vào phong bì để mở thiệp</p>
+  </div>
+</section>
+
+<!-- ================= MAIN INVITATION ================= -->
+<div id="site" class="site" hidden>
+  <main class="invite">
+
+    <!-- 01 HERO -->
+    <section class="sec sec-hero" id="hero">
+      <h1 class="hero-title reveal">
+        <span class="script">Thiệp mời</span>
+        <span class="caps">lễ thành hôn</span>
+      </h1>
+
+      <img class="flowers flowers--hero reveal" src="assets/images/flowers-cream-burgundy.png" alt="Bó hoa hồng trắng và đỏ rượu vang" />
+
+      <p class="couple reveal">
+        <span class="script" id="hero-groom">Đình Kiên</span>
+        <span class="script amp">&amp;</span>
+        <span class="script" id="hero-bride">Phương Nhi</span>
+      </p>
+      <p class="caps hero-date reveal" id="hero-date">Chủ Nhật · 29.11.2026</p>
+    </section>
+
+    <!-- 02 GREETING + CALENDAR -->
+    <section class="sec sec-greeting" id="greeting">
+      <div class="arch-card reveal">
+        <img class="flowers flowers--arch" src="assets/images/flowers-cream-burgundy.png" alt="" aria-hidden="true" loading="lazy" />
+        <h2 class="script card-title" id="greeting-title"></h2>
+        <p class="card-text" id="greeting-text"></p>
+        <div class="calendar" id="calendar" aria-label="Lịch tháng cưới"></div>
+        <p class="script month" id="calendar-month"></p>
+      </div>
+      <img class="drape" src="assets/svg/drape.svg" alt="" aria-hidden="true" />
+    </section>
+
+    <!-- 03 VENUE -->
+    <section class="sec sec-venue" id="venue">
+      <div class="cream-card sealed reveal">
+        <span class="card-seal" aria-hidden="true">
+          <img src="assets/svg/seal.svg" alt="" />
+          <span class="seal-mono mono-mask"></span>
+        </span>
+        <h2 class="script card-title">Tiệc cưới được tổ chức</h2>
+        <p class="muted">tại địa chỉ:</p>
+        <p class="strong" id="venue-address"></p>
+        <p class="muted gap">trung tâm tiệc cưới</p>
+        <p class="script venue-name" id="venue-name"></p>
+        <a class="btn-wine" id="maps-link" href="#" target="_blank" rel="noopener">Xem bản đồ</a>
+        <p class="muted gap">đón khách</p>
+        <p class="script venue-time" id="venue-time"></p>
+        <p class="small" id="venue-sub"></p>
+      </div>
+      <img class="flowers flowers--bouquet reveal" src="assets/images/flowers-cream-burgundy.png" alt="" aria-hidden="true" loading="lazy" />
+    </section>
+
+    <!-- 04 PROGRAMME -->
+    <section class="sec sec-program" id="program">
+      <h2 class="script sec-title reveal">Lịch trình ngày cưới</h2>
+      <ol class="program reveal" id="program-list"></ol>
+      <img class="drape" src="assets/svg/drape.svg" alt="" aria-hidden="true" loading="lazy" />
+    </section>
+
+    <!-- 05 DRESS CODE -->
+    <section class="sec sec-dress" id="dresscode">
+      <h2 class="script sec-title reveal">Dress code</h2>
+      <p class="sec-text reveal" id="dress-text"></p>
+      <ul class="swatches reveal" id="swatches" aria-label="Bảng màu trang phục gợi ý"></ul>
+    </section>
+
+    <!-- 06 GALLERY -->
+    <section class="sec sec-gallery" id="gallery">
+      <h2 class="script sec-title reveal">Khoảnh khắc của chúng tôi</h2>
+      <div class="gallery reveal" id="gallery-grid"></div>
+      <button type="button" class="btn-outline" id="gallery-more">Xem thêm ảnh</button>
+    </section>
+
+    <!-- 07 GIFT -->
+    <section class="sec sec-gift" id="gift">
+      <div class="cream-card reveal">
+        <img class="flowers flowers--corner-tl" src="assets/images/flowers-cream-burgundy.png" alt="" aria-hidden="true" loading="lazy" />
+        <img class="flowers flowers--corner-tr" src="assets/images/flowers-cream-burgundy.png" alt="" aria-hidden="true" loading="lazy" />
+        <h2 class="script card-title">Mừng cưới</h2>
+        <p class="card-text" id="gift-text"></p>
+        <figure class="qr-frame">
+          <img id="gift-qr" src="assets/images/qr-code.jpg" alt="Mã QR chuyển khoản mừng cưới" loading="lazy" />
+        </figure>
+        <a class="btn-wine" href="assets/images/qr-code.jpg" download="QR-mung-cuoi-Kien-Nhi.jpg">Lưu mã QR</a>
+      </div>
+      <img class="drape" src="assets/svg/drape.svg" alt="" aria-hidden="true" loading="lazy" />
+    </section>
+
+    <!-- 08 RSVP -->
+    <section class="sec sec-rsvp" id="rsvp">
+      <h2 class="script sec-title reveal">Xác nhận tham dự</h2>
+      <p class="sec-text reveal" id="rsvp-text"></p>
+
+      <form class="rsvp-form reveal" id="rsvp-form" novalidate>
+        <label class="field">
+          <span class="field-label">Họ và tên của Quý khách</span>
+          <input type="text" name="name" autocomplete="name" required />
+        </label>
+
+        <fieldset class="field">
+          <legend class="field-label">Quý khách sẽ đến chung vui chứ?</legend>
+          <label class="choice"><input type="radio" name="attend" value="yes" required /> <span>Có, tôi sẽ tham dự</span></label>
+          <label class="choice"><input type="radio" name="attend" value="no" /> <span>Rất tiếc, tôi không thể đến</span></label>
+        </fieldset>
+
+        <fieldset class="field">
+          <legend class="field-label">Quý khách là khách mời của</legend>
+          <label class="choice"><input type="radio" name="side" value="groom" /> <span>Nhà trai</span></label>
+          <label class="choice"><input type="radio" name="side" value="bride" /> <span>Nhà gái</span></label>
+        </fieldset>
+
+        <fieldset class="field">
+          <legend class="field-label">Số người tham dự</legend>
+          <div class="choice-row">
+            <label class="choice"><input type="radio" name="guests" value="1" checked /> <span>1 người</span></label>
+            <label class="choice"><input type="radio" name="guests" value="2" /> <span>2 người</span></label>
+            <label class="choice"><input type="radio" name="guests" value="3+" /> <span>3 người trở lên</span></label>
+          </div>
+        </fieldset>
+
+        <label class="field">
+          <span class="field-label">Lời chúc gửi cô dâu &amp; chú rể</span>
+          <textarea name="message" rows="3"></textarea>
+        </label>
+
+        <p class="form-error" id="rsvp-error" role="alert" hidden></p>
+        <button type="submit" class="btn-cream">Gửi xác nhận</button>
+      </form>
+
+      <div class="rsvp-success" id="rsvp-success" role="status" hidden>
+        <p class="script">Cảm ơn Quý khách!</p>
+        <p>Chúng tôi đã nhận được xác nhận và rất mong được gặp Quý khách trong ngày vui.</p>
+      </div>
+    </section>
+
+    <!-- 09 CLOSING -->
+    <section class="sec sec-closing" id="closing">
+      <p class="caps closing-text reveal" id="closing-text"></p>
+      <img class="flowers flowers--bouquet reveal" src="assets/images/flowers-cream-burgundy.png" alt="" aria-hidden="true" loading="lazy" />
+      <p class="couple reveal">
+        <span class="script" id="closing-groom">Đình Kiên</span>
+        <span class="script amp">&amp;</span>
+        <span class="script" id="closing-bride">Phương Nhi</span>
+      </p>
+      <p class="caps hero-date reveal" id="closing-date">29.11.2026</p>
+    </section>
+
+  </main>
+</div>
+
+<script src="js/wedding-data.js?v=3"></script>
+<script src="js/main.js?v=3"></script>
+<script>window.addEventListener('DOMContentLoaded',function(){setTimeout(function(){document.querySelectorAll('img[loading=lazy]').forEach(function(i){i.loading='eager'});document.getElementById('env-screen').hidden=true;document.getElementById('site').hidden=false;document.body.classList.remove('is-locked');document.querySelectorAll('.reveal').forEach(function(n){n.classList.add('is-visible')});},50)});</script></body>
+</html>
+
